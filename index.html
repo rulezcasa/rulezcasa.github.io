@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Harish Thangaraj</title>
+<style>
+  :root {
+    --ink: #1a2233;
+    --muted: #6b7280;
+    --line: #e5e7eb;
+    --accent: #2563eb;
+    --bg: #ffffff;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: var(--ink);
+    background: var(--bg);
+    line-height: 1.6;
+  }
+  .wrap {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 64px 24px 96px;
+  }
+  h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0 0 16px;
+    letter-spacing: -0.01em;
+  }
+  .links { margin-bottom: 32px; font-size: 1.05rem; }
+  .links a {
+    color: var(--accent);
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .links a:hover { text-decoration: underline; }
+  .links .sep { color: var(--muted); margin: 0 8px; }
+
+  hr {
+    border: none;
+    border-top: 1px solid var(--line);
+    margin: 0 0 40px;
+  }
+
+  h2 {
+    font-size: 1.05rem;
+    font-weight: 700;
+    margin: 0 0 16px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid var(--line);
+  }
+  section { margin-bottom: 40px; }
+
+  p { margin: 0; }
+
+  ul { padding-left: 22px; margin: 0; }
+  li { margin-bottom: 8px; }
+  li:last-child { margin-bottom: 0; }
+
+  .entry { margin-bottom: 22px; }
+  .entry:last-child { margin-bottom: 0; }
+
+  footer {
+    margin-top: 64px;
+    padding-top: 24px;
+    border-top: 1px solid var(--line);
+    color: var(--muted);
+    font-size: 0.95rem;
+  }
+  footer a {
+    color: var(--accent);
+    text-decoration: none;
+    font-weight: 600;
+  }
+  footer a:hover { text-decoration: underline; }
+
+  @media (max-width: 600px) {
+    .wrap { padding: 40px 18px 64px; }
+    h1 { font-size: 1.9rem; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <h1>Hi, I'm Harish Thangaraj 👋</h1>
+  <div class="links">
+    <a href="https://linkedin.com/in/rulezcasa">LinkedIn</a>
+    <span class="sep">·</span>
+    <a href="mailto:harish.thangaraj03@outlook.com">Email</a>
+    <span class="sep">·</span>
+    <a href="https://github.com/rulezcasa">Github</a>
+  </div>
+  <hr />
+
+  <section>
+    <h2>About</h2>
+    <p>
+      I'm an AI engineer who loves messy problems. My work spans agentic automation 
+      and RAG pipelines. I've also researched deep RL and NLP modelling for low resource languages. 
+      What excites me most right now is figuring out how to make LLM agents more reliable
+      over long horizons — adaptive memory and less drift.
+    </p>
+  </section>
+
+  <section>
+    <h2>Interests</h2>
+    <ul>
+      <li>Evolving memory and long-horizon context in LLM agents</li>
+      <li>Multi-agent systems and efficienct orchestration</li>
+      <li>Intersection of world models and LLMs : What I believe is true AGI.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Experience</h2>
+    <ul>
+      <li>AI Engineer @ Banthry — Building an agentic, RAG-driven AI legal-tech suite processing 500K+ documents</li>
+      <li>Research Intern @ CSIR-NAL — Deep RL research on attention-driven exploration strategies</li>
+      <li>ML Engineer @ Liquid Neurons — Built and deployed a face-recognition based attendance ERP</li>
+      <li>NLP Research Intern @ University of Pretoria — Cross-lingual transfer for low-resource African languages</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Selected Research &amp; Projects</h2>
+
+    <div class="entry">
+      <p>Operon — An agentic lead-generation and scheduling tool for SMEs, automating outreach and customer interactions end-to-end. Currently running pilots. (<a href="https://operon.co.in/">view</a>)</p>
+    </div>
+
+    <div class="entry">
+      <p>CollabAId — A neural recommendation engine for academic engagement and networking, packaged as a B2B SaaS product for higher-ed institutions. Co-founded and built from the ground up. (<a href="https://collabaid.in/">view</a>)</p>
+    </div>
+
+    <div class="entry">
+      <p>AT-DQN — A novel Deep Q-Network architecture using attention-driven action selection to improve exploration in deep RL, achieving a 30% gain in sample efficiency over ε-greedy baselines. Published at IEEE ICCCNT-25. (<a href="https://github.com/rulezcasa/AT-DQN">view</a>)</p>
+    </div>
+
+    <div class="entry">
+      <p>Cross-Lingual Transfer for Low-Resource Languages — Research on cross-lingual transfer learning for low-resource African languages, evaluating multilingual architectures (AfriBERT, Char-CNN, BiGRU) on NER and sentiment tasks. Published at Springer SACAIR-25. (<a href="https://arxiv.org/abs/2409.10965">view</a>)</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Education</h2>
+    <ul>
+      <li>MS Computer Science — San Jose State University, CA <em>(Fall 2026-2028)</em></li>
+      <li>B.Tech Computer Science — Vellore Institute of Technology, India <em>(Fall 2021–2025)</em></li>
+    </ul>
+  </section>
+
+
+</div>
+</body>
+</html>
